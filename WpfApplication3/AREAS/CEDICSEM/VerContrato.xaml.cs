@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 
-namespace WpfApplication3.AREAS.CSANPABLO
+namespace WpfApplication3.AREAS.CEDICSEM
 {
 
     public partial class VerContrato : Window

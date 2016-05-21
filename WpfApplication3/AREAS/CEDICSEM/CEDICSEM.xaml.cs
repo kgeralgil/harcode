@@ -15,23 +15,18 @@ using System.Windows.Shapes;
 using System.Data;
 using System.Reflection;
 
-namespace WpfApplication3.AREAS.CSANPABLO
+namespace WpfApplication3.AREAS.CEDICSEM
 {
     /// <summary>
     /// Interaction logic for PROVIDA_CAMPANAS.xaml
     /// </summary>
-    public partial class CSANPABLO_custom : UserControl
+    public partial class CEDICSEM : UserControl
     {
         
         public static bool reload = false;
-        public CSANPABLO_custom()
+        public CEDICSEM()
         {
             InitializeComponent();
-            //if (reload == true)
-            //{
-
-            //}
-
         }
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
@@ -109,6 +104,10 @@ namespace WpfApplication3.AREAS.CSANPABLO
 
         }
 
+        private void btnVerCliente_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 
 
